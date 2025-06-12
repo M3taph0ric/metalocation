@@ -3,12 +3,13 @@ import { getAuth } from 'firebase/auth';
 import { getFirestore } from 'firebase/firestore';
 
 const firebaseConfig = {
-  apiKey: "YOUR_FIREBASE_API_KEY",
-  authDomain: "YOUR_FIREBASE_AUTH_DOMAIN",
-  projectId: "YOUR_FIREBASE_PROJECT_ID",
-  storageBucket: "YOUR_FIREBASE_STORAGE_BUCKET",
-  messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-  appId: "YOUR_FIREBASE_APP_ID"
+  apiKey: "AIzaSyDCFfyOmRBf8ORnpQ7Rkx639Ycl1YsdwC0",
+  authDomain: "metaloc-96f87.firebaseapp.com",
+  projectId: "metaloc-96f87",
+  storageBucket: "metaloc-96f87.firebasestorage.app",
+  messagingSenderId: "887752423564",
+  appId: "1:887752423564:web:b329b7db00be3d839ee3a9",
+  measurementId: "G-R3KGM00QLS"
 };
 
 const app = initializeApp(firebaseConfig);
